@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyBuy</string>
+    <string name="button_text">Insert</string>
+
+    <string name="dialog_title">What do I want to buy?</string>
+    <string name="dialog_button_ok">Insert</string>
+    <string name="dialog_button_update">Update</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <string name="menu_new">Clear</string>
+
+</resources>

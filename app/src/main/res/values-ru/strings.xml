@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Покупки</string>
+    <string name="button_text">Добавить</string>
+
+    <string name="dialog_title">Что купить?</string>
+    <string name="dialog_button_ok">Добавить</string>
+    <string name="dialog_button_update">Обновить</string>
+    <string name="dialog_button_cancel">Отмена</string>
+
+    <string name="menu_new">Очистить</string>
+
+
+</resources>
