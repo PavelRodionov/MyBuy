@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         adialog = builder.create();
+
     }
 
 
@@ -90,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
             case R.id.menu_new_list:
+                initDialog();
                 adialog.show();
                 break;
             case R.id.menu_delete_list:
