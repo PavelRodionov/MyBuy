@@ -59,7 +59,7 @@ public class ListViewAdapter extends BaseAdapter implements NotifyChangedInterfa
             @Override
             public void onClick(View v) {
                 View view  = View.inflate(parent.getContext(),R.layout.layout_for_dialog,null);
-                final TextView text; text = (TextView)view.findViewById(R.id.edit_text);
+                final TextView text = (TextView)view.findViewById(R.id.edit_text);
                 builder = new AlertDialog.Builder(parent.getContext());
                 builder.setTitle(R.string.dialog_title);
                 builder.setView(view);

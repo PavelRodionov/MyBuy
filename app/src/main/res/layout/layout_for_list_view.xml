@@ -2,35 +2,48 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_recycler_view">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="8dp">
+
+        <ImageView
+            android:id="@+id/item_edit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@android:drawable/ic_menu_edit"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/item_delete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@android:drawable/ic_delete"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/recycler_text_for_buys"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_size_recycler"
+        android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/color_blue"
-        android:background="@drawable/background_recycler_view"
-        android:padding="@dimen/activity_horizontal_margin"/>
-
-
-    <ImageView
-        android:id="@+id/item_delete"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:background="@android:drawable/ic_delete"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="8dp"/>
-
-    <ImageView
-        android:id="@+id/item_edit"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:background="@android:drawable/ic_menu_edit"
-        android:layout_toLeftOf="@id/item_delete"
-        android:layout_margin="8dp"/>
+        android:textColor="#000"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toLeftOf="@id/linear_layout"
+        android:layout_toStartOf="@id/linear_layout"/>
 
 
 </RelativeLayout>
